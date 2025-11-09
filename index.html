@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <h1>互動式測驗（p5.js）</h1>
+      </header>
+
+      <div id="controls">
+        <button id="download-csv">下載範例題庫 CSV</button>
+        <button id="start-quiz">開始測驗（四題）</button>
+        <button id="reset-quiz">重置</button>
+      </div>
+
+      <div id="quiz-area">
+        <!-- 由 sketch.js 動態填入題目與按鈕 -->
+      </div>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
